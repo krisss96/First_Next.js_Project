@@ -16,18 +16,15 @@ export default function Page() {
   className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"
 />
         <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-pink-500">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
+            <strong  className="text-pink-500">Welcome to Acme!</strong> 
           </p>
           <Link
-            href="/login"
-            className="flex items-center gap-5 self-start rounded-lg bg-pink-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-pink-400 md:text-base"
-          >
-            <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
-          </Link>
+  href="/dashboard"
+  className="flex items-center gap-5 self-start rounded-lg bg-pink-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-pink-400 md:text-base"
+>
+  <span>Dashboard</span> <ArrowRightIcon className="w-5 md:w-6" />
+</Link>
+
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
